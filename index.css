@@ -1,0 +1,34 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: white; /* Fondo blanco */
+            color: #004687; /* Azul Francia */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Centra el texto */
+        }
+
+        header {
+            background-color: #004687; /* Fondo Azul Francia */
+            color: white; /* Texto blanco */
+            padding: 20px;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        /* Ajuste de la imagen */
+        img {
+            max-width: 300px; /* Tamaño controlado */
+            height: auto;
+            border: 3px solid #004687; /* Borde azul para que combine */
+            border-radius: 10px; /* Bordes un poco redondeados */
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #555;
+            padding-bottom: 20px;
+        }
