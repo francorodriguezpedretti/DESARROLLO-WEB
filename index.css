@@ -17,6 +17,13 @@ main {
     padding: 40px 20px;
 }
 
+/* CENTRADO GENERAL COMO EN INDEX */
+section {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* IMAGEN (solo afecta index) */
 img {
     max-width: 300px;
     height: auto;
@@ -25,16 +32,27 @@ img {
     margin-top: 20px;
 }
 
+/* INTERESES */
 ul {
     list-style: none;
     padding: 0;
 }
 
 li {
-    margin: 10px 0;
+    margin: 12px 0;
     font-size: 18px;
 }
 
+/* TEXTOS MÁS PROLIJOS */
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* LINKS (index + contacto) */
 a {
     color: #004687;
     text-decoration: none;
@@ -45,6 +63,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* FOOTER */
 footer {
     margin-top: 50px;
     font-size: 0.8rem;
